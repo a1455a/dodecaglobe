@@ -1,0 +1,25 @@
+Get libexpat 2.2.6 from https://github.com/libexpat/libexpat/releases, install as usual:
+
+    ./configure
+    make
+    sudo make install
+
+Compile dodecaglobe:
+
+    g++ dodecaglobe.cpp -l expat -o dodecaglobe
+
+Run dodecaglobe:
+
+    ./dodecaglobe 1 'World_map_(Miller_cylindrical_projection,_blank).svg' > face1.svg
+    ./dodecaglobe 2 'World_map_(Miller_cylindrical_projection,_blank).svg' > face2.svg
+    ./dodecaglobe 3 'World_map_(Miller_cylindrical_projection,_blank).svg' > face3.svg
+    ./dodecaglobe 4 'World_map_(Miller_cylindrical_projection,_blank).svg' > face4.svg
+    ./dodecaglobe 5 'World_map_(Miller_cylindrical_projection,_blank).svg' > face5.svg
+    ./dodecaglobe 6 'World_map_(Miller_cylindrical_projection,_blank).svg' > face6.svg
+    ./dodecaglobe 7 'World_map_(Miller_cylindrical_projection,_blank).svg' > face7.svg
+    ./dodecaglobe 8 'World_map_(Miller_cylindrical_projection,_blank).svg' > face8.svg
+    ./dodecaglobe 9 'World_map_(Miller_cylindrical_projection,_blank).svg' > face9.svg
+    ./dodecaglobe 10 'World_map_(Miller_cylindrical_projection,_blank).svg' > face10.svg
+    ./dodecaglobe 11 'World_map_(Miller_cylindrical_projection,_blank).svg' > face11.svg
+    ./dodecaglobe 12 'World_map_(Miller_cylindrical_projection,_blank).svg' > face12.svg
+
